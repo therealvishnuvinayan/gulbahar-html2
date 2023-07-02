@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    #splash-screen, #unauthorized-message {
+      text-align: center;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    #unauthorized-message {
+      display: none;
+    }
+    .goBackBtn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: blue; /* or whatever color you want for your button */
+  text-decoration: none; /* removes the underline from the link */
+  border-radius: 5px; /* gives the button rounded corners */
+  text-align: center;
+  background: white;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+  </style>
+</head>
+<body style="background-color: black;">
+  <div id="splash-screen">
+    <img src="./images/main-logo-new.png" alt="welcome page home logo" width="200px"/>
+    <h1 style="color: white">Are you sure your age is 18+?</h1>
+    <button style='cursor: pointer;' onclick="confirmAge()">Yes</button>
+    <button style='cursor: pointer;' onclick="denyAccess()">No</button>
+  </div>
+  <div id="unauthorized-message">
+    <img src="./images/main-logo-new.png" alt="welcome page home logo" width="200px"/>
+    <h1 style="color: white">Oops, it looks like you are not quiet there yet.</h1>
+      <h1 style="color: white">We'll be here waiting for you when you turn 18, see you soon.</h1>
+    <a href="https://www.google.com" class="goBackBtn">Go Back</a>
+  </div>
+  <script>
+    function confirmAge() {
+      window.location.href = 'main.html';
+    }
+    function denyAccess() {
+      var splashScreen = document.getElementById('splash-screen');
+      var unauthorizedMessage = document.getElementById('unauthorized-message');
+      splashScreen.style.display = 'none';
+      unauthorizedMessage.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
