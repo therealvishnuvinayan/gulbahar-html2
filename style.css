@@ -28247,4 +28247,37 @@ mix-blend-mode: normal !important;
   #home-main-banner .line__outer {
     bottom: 250px
   }
+  h1.headline__load.lg {
+    font-size: 139px;
+    line-height: 1.1!important;
+  }
+  #smooth-wrapper[data-barba-namespace=contact] #main>.row .col:nth-child(1)::after {
+    height: 742px;
+  }
+
+  #clients-image1 {
+    top: 157px;
+  }
+
+  #clients-image2 {
+    top: 56px;
+  }
+
+  #clients-image3 {
+    top: -54px;
+  }
+
+  #clients-image4 {
+    top: 83px;right: -23px;
+  }
+
+  #clients-image5 {
+    top: 66px;
+  }
+
+  #clients-image6 {
+
+    top: 8px;
+    right: 13px;
+  }
  }
