@@ -28242,3 +28242,9 @@ mix-blend-mode: normal !important;
 #experience .line__inner {
   margin-bottom: 10px;
 }
+
+ @media screen and (min-width: 1920px) and (max-width: 1920px) {
+  .line__outer {
+  bottom: 150px
+ }
+ }
