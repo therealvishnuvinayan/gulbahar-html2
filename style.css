@@ -2066,7 +2066,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   position: relative;
   width: 100%;
   justify-content: space-between;
-  padding: 12vw 9% 8vw 6vw;
+  padding: 9vw 9% 8vw 6vw;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15935,7 +15935,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   position: relative;
   width: 100%;
   justify-content: space-between;
-  padding: 12vw 9% 8vw 6vw;
+  padding: 9vw 9% 8vw 6vw;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28110,7 +28110,7 @@ body.bg__dark
   position: absolute;
   left: 0;
   right: 0;
-  height: 519px;
+  height: 619px;
   margin: auto;
   border-right: 1px solid #0f0d0d !important;
 }
@@ -28235,18 +28235,10 @@ mix-blend-mode: normal !important;
     color: #817c7c;
 }
 
-a.hover__headline.--highlight:hover #identityMilano::after {
-  content: 'Download brochure'; /* Text to show on hover */
-  position: absolute; /* Absolute positioning */
-  top: 50px; /* Position above the button */
-  left: 30px; /* Align with the left side of the button */
-  background-color: green; /* Background color */
-  color: white; /* Text color */
-  padding: 5px; /* Padding around the text */
-  border-radius: 3px; /* Rounded corners */
-  font-size: 12px; /* Tooltip text size */
-  z-index: 9999;
+#identity .line__inner {
+  margin-bottom: 10px;
 }
 
-
-
+#experience .line__inner {
+  margin-bottom: 10px;
+}
