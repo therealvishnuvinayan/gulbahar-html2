@@ -2066,7 +2066,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   position: relative;
   width: 100%;
   justify-content: space-between;
-  padding: 9vw 9% 8vw 6vw;
+  padding: 8vw 9% 8vw 6vw;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15935,7 +15935,7 @@ body:not(.intro-leave) #smooth-wrapper[data-barba-namespace="home"] section {
   position: relative;
   width: 100%;
   justify-content: space-between;
-  padding: 9vw 9% 8vw 6vw;
+  padding: 8vw 9% 8vw 6vw;
 }
 
 @media screen and (max-width: 1024px) {
