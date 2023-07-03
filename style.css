@@ -817,8 +817,8 @@ section {
 }
 
 body.bg__dark section {
-  background:  #fefcff;
-  color: #0f0d0d;
+  background:  #fefcff !important;
+  color: #0f0d0d !important;
 }
 
 body.bg__dark section .st__line {
