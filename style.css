@@ -28110,7 +28110,7 @@ body.bg__dark
   position: absolute;
   left: 0;
   right: 0;
-  height: 619px;
+  height: 500px;
   margin: auto;
   border-right: 1px solid #0f0d0d !important;
 }
@@ -28280,4 +28280,8 @@ mix-blend-mode: normal !important;
     top: 8px;
     right: 13px;
   }
+ }
+
+ #contact-form h1.headline__load.lg {
+  line-height: 1!important;
  }
