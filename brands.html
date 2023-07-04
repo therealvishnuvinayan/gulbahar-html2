@@ -313,6 +313,10 @@
                 <div class="row__inner">
                   <div class="col__inner st__text" id="strategy">
                     <div class="st__plax" id="identityMilanoVideo">
+                      <a
+                      target="_blank"
+                      href="/docs/Milano.pdf"
+                      >
                       <video
                         class="promo cursor__hover"
                         playsinline
@@ -323,9 +327,12 @@
                         <source src="./videos/studio-video-2.mp4" />
                         Your browser does not support the video tag.
                       </video>
+                      </a>
                     </div>
                     
                     <a
+                    target="_blank"
+                    href="/docs/Milano.pdf"
                       class="hover__headline --highlight cursor-pointer"
                       data-attribute-text="view"
                     >
@@ -337,6 +344,10 @@
 
                   <div class="col__inner st__text" id="identity">
                     <div class="st__plax" id="identityCavalloVideo">
+                      <a
+                      target="_blank"
+                      href="/docs/Cavallo.pdf"
+                      >
                       <video
                         class="promo cursor__hover"
                         playsinline
@@ -347,9 +358,11 @@
                         <source src="./videos/studio-video-1.mp4" />
                         Your browser does not support the video tag.
                       </video>
-                      
+                      </a>
                     </div>
                     <a
+                    target="_blank"
+                    href="/docs/Cavallo.pdf"
                       class="hover__headline --highlight cursor-pointer"
                     >
                       <h1 class="st__headline" id="identity">Cavallo</h1>
@@ -360,6 +373,10 @@
 
                   <div class="col__inner st__text" id="experience" style="margin-top: 150px">
                     <div class="st__plax" id="identityMondVideo">
+                      <a
+                      target="_blank"
+                      href="/docs/Mond.pdf"
+                      >
                       <video
                         class="promo cursor__hover"
                         playsinline
@@ -370,12 +387,15 @@
                         <source src="./videos/studio-video-3.mp4" />
                         Your browser does not support the video tag.
                       </video>
+                      </a>
                     </div>
                     <a
+                    target="_blank"
+                    href="/docs/Mond.pdf"
                       class="hover__headline --highlight cursor-pointer"
                     >
                       <h1 class="st__headline" id="identity">Mond</h1>
-                      <h1 id="identityMond">explore</h1>
+                     <h1 id="identityMond">explore</h1>
                     </a>
                     <p></p>
                   </div>
@@ -444,42 +464,9 @@
     </div>
     <div class="page-transition"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-    $("#identityMond").on("click", function(e){
-        e.preventDefault();
-        openWindow("./docs/Mond.pdf");
-    });
-
-    $("#identityMondVideo").on("click", function(e){
-        e.preventDefault();
-        openWindow("./docs/Mond.pdf");
-    });
-
-    $("#identityMilano").on("click", function(e){
-        e.preventDefault();
-        openWindow("./docs/Milano.pdf");
-    });
-    $("#identityMilanoVideo").on("click", function(e){
-        e.preventDefault();
-        openWindow("./docs/Milano.pdf");
-    });
-
-    $("#identityCavallo").on("click", function(e){
-        e.preventDefault();
-        openWindow("./docs/Cavallo.pdf");
-    });
-    $("#identityCavalloVideo").on("click", function(e){
-        e.preventDefault();
-        openWindow("./docs/Cavallo.pdf");
-    });
-
-    function openWindow(url) {
-        var newWindow = window.open(url, '_blank');
-        newWindow.opener = null; // Optional: Set the opener to null for better security
-    }
-});
-</script>
+ 
+    
+    
 <script>
   document.getElementById("getInTouchWithUs").addEventListener("click", function() {
     window.location.href = "contact.html";
