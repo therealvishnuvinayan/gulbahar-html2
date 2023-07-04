@@ -28256,29 +28256,29 @@ mix-blend-mode: normal !important;
   }
 
   #clients-image1 {
-    top: 157px;
+    top: 176px!important;
   }
 
   #clients-image2 {
-    top: 56px;
+    top: 70px!important;
   }
 
   #clients-image3 {
-    top: -54px;
+    top: -34px!important;
   }
 
   #clients-image4 {
-    top: 83px;right: -23px;
+    top: 108px!important;
+    right: -23px!important;
   }
 
   #clients-image5 {
-    top: 66px;
+    top: 86px!important;
   }
 
   #clients-image6 {
-
-    top: 8px;
-    right: 13px;
+    top:34px!important;
+    right: 7px!important;
   }
  }
 
