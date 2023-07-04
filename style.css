@@ -19242,7 +19242,7 @@ body.bg__dark
   > .row
   .col:nth-child(1)
   h1 {
-  line-height: 1.2;
+  line-height: 1.1 !important;
 }
 
 @media screen and (max-width: 1024px) {
